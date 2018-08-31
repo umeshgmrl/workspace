@@ -3,9 +3,13 @@ import React from 'react';
 const Home = () => {
 	return (
 		<div>
-			<h1>Home</h1>
-			<input className="input" placeholder="enter the number of participants" name="num" />
-			<button className="button">Submit</button>
+			<h1>Leaderboard</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illum
+				molestiae voluptates ad ea quis fuga, accusantium soluta unde vitae
+				maxime, eum delectus? Fuga temporibus maxime libero enim, consequatur
+				totam.
+			</p>
 		</div>
 	);
 };
