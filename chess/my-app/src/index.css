@@ -3,8 +3,8 @@ h1 {
 	text-align: center;
 }
 .container {
-	max-width: 90%;
-	margin: 0px auto;
+	max-width: 500px !important;
+	margin-left: 0px !important;
 }
 .route-bar {
 	display: flex;
@@ -13,4 +13,9 @@ h1 {
 }
 .select {
 	margin-left: 15px;
+}
+pre {
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }

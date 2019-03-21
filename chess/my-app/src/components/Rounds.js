@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Topics = props => {
 	return (
@@ -11,9 +11,7 @@ const Topics = props => {
 							<select
 								defaultValue=" "
 								className="select"
-								onChange={e =>
-									props.onSelectChange(e.target.value, matchIndex, roundIndex)
-								}
+								onChange={e => props.onSelectChange(e.target.value, matchIndex, roundIndex)}
 							>
 								<option value=" " disabled={true} />
 								<option value={match.p1}>{match.p1}</option>
