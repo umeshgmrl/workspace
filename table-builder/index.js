@@ -51,8 +51,11 @@ class Greeting extends React.Component {
 			console.log(this.state.table);
 		});
 	};
+
 	updateCell = (e, idx, index) => {
+		if(!e.target.value) return;
 		let updatedTable = this.state.table;
+		// e.target.value = e.target.innerText;
 		updatedTable[idx][index] = e.target.value;
 		this.setState({
 			table: updatedTable
