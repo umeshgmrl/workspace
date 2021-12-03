@@ -1,0 +1,7 @@
+MySQL
+database-1.cx0eovyvpceg.ap-south-1.rds.amazonaws.com:3306
+credentials: admin/12345678
+port: 3306
+
+
+https://webphpmyadmin.com/
